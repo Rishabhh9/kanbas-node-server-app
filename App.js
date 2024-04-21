@@ -28,7 +28,7 @@ app.use(cors({
 })
 );
 const sessionOptions = {
-    secret: process.env.SESSION_SECRET,
+    secret: "Hello",
     resave: false,
     saveUninitialized: false,
 };
